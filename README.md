@@ -3,6 +3,8 @@ based on linux
 ##有关这个chatroom的使用
 将该项目方至在你的linux下，然后先在server文件夹下看一下，主要看看写的makefile
 
+在编译过程中要注意加上相关的库，特别是需要安装sqlite3的库
+
 所有的string.h中的文件都已经自己实现了，大家可以自己拿去参考啦
 
 make 后直接./server就可以了，
